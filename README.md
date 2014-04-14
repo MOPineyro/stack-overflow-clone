@@ -14,6 +14,15 @@ Practicing use of following gems:
     * [FactoryGirl](https://github.com/thoughtbot/factory_girl)
     * [PhantomJS](https://github.com/ariya/phantomjs)
 
+
+Completed
+---------
+
+- User can create, sign-in, edit-profile. Implemented via 'devise' gem.
+
+To-Do
+-----
+
 User stories provided by [@michaelrkn](https://twitter.com/michaelrkn) :
 
 

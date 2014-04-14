@@ -12,8 +12,9 @@ gem 'modernizr-rails'
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
-gem 'refills'
 gem 'normalize-rails'
+
+gem 'devise'
 
 group :development do
   gem 'better_errors'

@@ -1,8 +1,7 @@
 @import "bourbon";
-@import "home";
-@import "users";
-@import "bitters";
+@import "bitters/bitters";
 @import "neat";
+@import "custom";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -16,4 +15,5 @@
  *
  *= require_self
  *= require normalize-rails
+ *= require_tree .
  */
