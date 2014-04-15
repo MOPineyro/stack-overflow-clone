@@ -1,0 +1,23 @@
+<div class="cards">
+<% @questions.each do |question| %>
+  <div class="card">
+    <div class="card-image">
+      <img src="https://raw.github.com/Magnus-G/Random/master/mountains.png" alt="">
+    </div>
+    <div class="card-header">
+      <%= question.title %>
+    </div>
+    <div class="card-copy">
+      <p><%= question.content %></p>
+    </div>
+    <div class="card-stats">
+      <ul>
+        <li>98<span>Items</span></li>
+        <li>298<span>Things</span></li>
+        <li>923<span>Objects</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<% end %>
+</div>

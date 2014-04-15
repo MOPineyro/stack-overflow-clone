@@ -1,0 +1,14 @@
+<div class="hero">
+  <div class="hero-inner">
+    <a href="" class="hero-logo"><img src="https://raw.github.com/Magnus-G/Random/master/placeholder_logo_1.png" alt=""></a>
+    <div class="hero-copy">
+      <h1>Questions App</h1>
+      <p>A few reasons why this product is worth using, who is it for and why do they need it.</p>
+    </div>
+    <% if user_signed_in? %>
+      <%= link_to "Ask A Question", new_question_path, id: 'new_link' , class: 'button', remote: true %>
+    <% else %>
+      <%= link_to "Sign-in & Ask A Question", new_user_session_path, class: 'button' %>
+    <% end %>
+  </div>
+</div>
