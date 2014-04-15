@@ -26,6 +26,7 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl'
+  gem 'pry'
 end
 
 group :test do
