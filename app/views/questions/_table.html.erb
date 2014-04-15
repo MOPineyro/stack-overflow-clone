@@ -1,0 +1,7 @@
+<% Question.all each do |question| %>
+    <tr>
+      <td><% question.title%></td>
+      <td><% question.content %></td>
+      <td><button>Confirm</button><button>Reject</button></td>
+    </tr>
+<% end %>

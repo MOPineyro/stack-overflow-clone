@@ -1,3 +1,5 @@
 $('#new_question').remove();
 $('#new_link').show();
-$('#cards').append('<%= j render(@question) %>');
+$('#questions').append('<%= j render(@question) %>');
+<%# FIXME : Table repeats due to ajax call %>
+
